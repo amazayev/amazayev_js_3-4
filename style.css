@@ -1,0 +1,39 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  list-style-image: url(img/marker.png);
+  font-family: Arial;
+}
+
+.wrapper{
+  padding: 20px;
+  width: 600px;
+}
+
+header, footer{
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstQuestion, .secondQuestion, .thirdQuestion{
+  font-size: 18px;
+}
+
+ul li{
+  font-size: 17px;
+}
+
+ul li:hover{
+  list-style-image: url(img/marker_hover.png);
+}
+
+button{
+  height: 40px;
+  width: 250px;
+  border: 2px solid rgb(76, 84, 89);
+  background-color: rgb(207, 225, 245);
+  font-size: 16.5px;
+}
